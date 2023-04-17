@@ -12,7 +12,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@700&display=swap"
     rel="stylesheet">
-
 </head>
 
 <!-- Below is where the actual coding is done! -->
@@ -23,67 +22,137 @@
 
   <!-- Surovi: Navigation bar starts here! -->
 
-  <!-- Code here Surovi -->
+  Code here Surovi
 
   <!-- Navigation bar ends here! -->
 
 
   <!-- Charlotte: Banner starts here! -->
 
-  <!-- Code here charlotte -->
+  <div class="banner">
+    <div class="banner-container">
+      <p style="font-family: Roboto Slab">PLACEHOLDER TEXT</p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
 
   <!-- Banner ends here! -->
 
   <!-- Registration form starts here (Vanessa) -->
+  <form class="signup-form" action="register" method="post">
+    <div class="header">
+      <h1>REGISTER YOUR INTEREST</h1>
+    </div>
+    <br>
+    <div class="form-body">
+      <span>
+        <label for="firstname">FIRST NAME</label>
+        <input type="text" id="firstname" name="firstname" />
+      </span>
+      <br><br>
+      <span>
+        <label for="lastname">LAST NAME</label>
+        <input type="text" id="lastname" name="lastname" />
+      </span>
+      <br><br>
+      <span>
+        <label for="email">EMAIL ADDRESS</label>
+        <input type="email" id="email" name="email" />
+      </span>
+      <br><br>
+      <span>
+        <label for="phonenumber">PHONE NUMBER</label>
+        <input type="phonenumber" id="phonenumber" name="phonenumber" />
+      </span>
+      <br><br>
+      <span>
+        <label for="groupsize">GROUP SIZE</label>
+        <select name="groupsize" id="groupsize">
+          <option disabled selected value>--</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">5</option>
+          <option value="">6</option>
+          <option value="">7</option>
+          <option value="">8</option>
+          <option value="">9</option>
+          <option value="">10</option>
+        </select>
+      </span>
+      <br><br>
+      <span>
+        <label for="checkin">CHECK-IN</label>
+        <input type="date" id="checkin" name="checkin" />
+      </span>
+      <br><br>
+      <span>
+        <label for="checkout">CHECK-OUT</label>
+        <input type="date" id="checkout" name="checkout" />
+      </span>
+      <br><br>
+      <label for="information">ADDITIONAL INFORMATION</label>
+      <p><input type="text" id="information" name="information" /></p>
+    </div>
 
-  <form>
-    <label for="firstname">FIRST NAME</label>
-    <input type="text" id="firstname" name="firstname">
-    <br>
-    <label for="lastname">LAST NAME</label>
-    <input type="text" id="lastname" name="lastname">
-    <br>
-    <label for="email">EMAIL ADDRESS</label>
-    <input type="email" id="email" name="email">
-    <br>
-    <label for="phonenumber">PHONE NUMBER</label>
-    <input type="phonenumber" id="phonenumber" name="phonenumber">
-    <br>
-    <label for="groupsize">GROUP SIZE</label>
-    <select name="groupsize" id="groupsize">
-      <option value="">1</option>
-      <option value="">2</option>
-      <option value="">3</option>
-      <option value="">4</option>
-      <option value="">5</option>
-      <option value="">5</option>
-      <option value="">6</option>
-      <option value="">7</option>
-      <option value="">8</option>
-      <option value="">9</option>
-      <option value="">10</option>
-    </select>
-    <br>
-    <label for="checkin">CHECK-IN</label>
-    <input type="date" id="checkin" name="checkin">
-    <br>
-    <label for="checkout">CHECK-OUT</label>
-    <input type="date" id="checkout" name="checkout">
-    <br>
-    <label for="information">ADDITIONAL INFORMATION</label>
-    <input type="text" id="information" name="information">
-    <br>
-    <label for="termsandconditions"> I agree to the Terms and conditions</label>
-    <input type="checkbox" id="termsandconditions" name="termsandconditions" value="agree">
-    <br>
-    <input type="submit" value="Submit">
+    <div class="form-footer">
+      <p>
+        <label for="termsandconditions">
+          I agree to the terms and conditions</label>
+        <input type="checkbox" id="termsandconditions" name="termsandconditions" value="agree" />
+        <br />
+      </p>
+    </div>
+    <div id="submitbtn">
+      <input type="submit" value="Submit" name="submit" />
+    </div>
   </form>
 
   <!-- Registration form ends here -->
 
   <!-- Camilla: Footer starts here -->
 
-  <!-- Code here Camilla -->
+  <footer>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Contact us</h3>
+
+
+    <div class="footerimage">
+      <img class="ftimg"
+        src="https://img.freepik.com/premium-vector/phone-call-icon-isolated-white-background-telephone-symbol-vector-illustration_548264-469.jpg?w=1380"
+        alt="phone" width="50" height="50">
+      <div class="desc">0800 123 4567</div>
+    </div>
+
+
+
+    <div class="footerimage">
+      <img class="ftimg"
+        src="https://as1.ftcdn.net/v2/jpg/02/38/96/64/1000_F_238966486_A5wEWiRNtuUm85Qxj5BM12hCDNrSS7yS.jpg" alt="email"
+        width="50" height="50">
+      <div class="desc">spaceholiday@scam.com</div>
+    </div>
+
+
+
+    <div class="footerimage">
+      <img class="ftimg" src="https://nrgteleresources.com/wp-content/uploads/facebook-logo-white.png" alt="facebook"
+        width="50" height="50">
+      <div class="desc">Space Holidays</div>
+    </div>
+
+
+
+  </footer>
 
   <!-- Footer ends here! -->
 

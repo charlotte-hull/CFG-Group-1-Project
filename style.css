@@ -1,70 +1,163 @@
 p, footer {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, label{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+footer {
+     padding: 15px;
+    text-align: center;
+}
+
+.footerimage {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.ftimg {
+border-radius: 30px;.f
+}
+.desc {
+  padding: 15px;
+}
+
+body {
+  background-color: black;
+}
+
+.hp-grid {
+  margin: 90px;
+}
+
+.img-hp {
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: outset;
+  border-color: darkgray;
+width: 600px; 
+height: 350px; 
+object-fit: cover;
+object-position: 0% 25%; 
+}
+
+.cropped { 
+  overflow: hidden;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: outset;
+  border-color: darkgray;
+  width: 300px; 
+  height: 230px;
+} 
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  background-color: #021a4c;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo{
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 20px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a{
+  color:rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.spacebar{
+  display: none;
+}
+
+.spacebar div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+}
+ 
+.banner{
+    width: 100%;
+    background-image: url(https://www.rsp.com.au/wp-content/uploads/resized/2021/12/jazzband_jb_101_cas01_0760_comp_comp_v017.1347-copy_v6-1440x800-c-default.jpg);
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.banner-container{
+    padding-top:300px;
+    font-size: 75px;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
-  
-  h1, h2, h3 {
-    color: white;
-    font-family: 'Roboto Slab', serif;
-  
+
+.signup-form {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px; 
+  margin-left: 500px;
+}
+
+#firstname, #lastname, #email, #phonenumber {
+  width: 200px;
+}
+
+#groupsize {
+  width: 45px;
+}
+
+.form-footer{
+  font-style: italic;
   }
-  
-  footer {
-       padding: 15px;
-      text-align: center;
-  }
-  
-  .footerimage {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-  }
-  
-  .desc {
-    padding: 15px;
-  }
-  
-  body {
-    background-color: black;
-  }
-  
-  .hp-grid {
-    margin: 90px;
-  }
-  
-  .img-hp {
-    border-radius: 15px;
-    border-width: 5px;
-    border-style: outset;
-    border-color: darkgray;
-  width: 600px; 
-  height: 350px; 
-  object-fit: cover;
-  object-position: 0% 25%; 
-  }
-  
-  .cropped { 
-    overflow: hidden;
-    border-radius: 15px;
-    border-width: 5px;
-    border-style: outset;
-    border-color: darkgray;
-    width: 300px; 
-    height: 230px;
-  } 
-  
-   
-  .banner{
-      width: 100%;
-      background-image: url(https://www.rsp.com.au/wp-content/uploads/resized/2021/12/jazzband_jb_101_cas01_0760_comp_comp_v017.1347-copy_v6-1440x800-c-default.jpg);
-      height: 400px;
-      background-position: center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-  
-  }
-  .banner-container{
-      padding-top:300px;
-      font-size: 75px;
-  }
-  
+
+#information {
+  width:400px;
+  height:90px;
+}
+
+#submitbtn input {
+  background-color: gray;
+  color:white;
+  cursor: pointer;
+  font-weight: bold;
+  height: 30px;
+  padding-bottom: 2px;
+  width: 75px;
+}
