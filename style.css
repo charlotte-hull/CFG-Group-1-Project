@@ -3,7 +3,7 @@ p, footer {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, label{
+h1, h2, h3, h4, a, label{
   color: white;
   font-family: 'Roboto Slab', serif;
 
@@ -67,7 +67,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 7vh;
-  background-color: #021a4c;
+  background-color: #3e3f41;
   font-family: 'Montserrat', sans-serif;
 
   position: sticky;
