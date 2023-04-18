@@ -21,7 +21,7 @@ footer {
 }
 
 .ftimg {
-border-radius: 30px;.f
+border-radius: 30px;
 }
 .desc {
   padding: 15px;
@@ -69,6 +69,9 @@ nav{
   min-height: 7vh;
   background-color: #021a4c;
   font-family: 'Montserrat', sans-serif;
+
+  position: sticky;
+  top: 0px;
 
 }
 
