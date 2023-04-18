@@ -118,8 +118,27 @@ nav{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.banner-activities{
+  width: 100%;
+  background-image: url(https://media.architecturaldigest.com/photos/60426252993888ff3d26b159/16:9/w_2560%2Cc_limit/20-1223%2520Voyager%2520Station.jpg);
+  height: 400px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 
 }
+.banner-register{
+  width: 2000px;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/960856720981536415/90FC611EA20B1797EABD82F92508DBB2DAFBBB0E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+  height: 400px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
 .banner-container{
     padding-top:300px;
     font-size: 75px;
