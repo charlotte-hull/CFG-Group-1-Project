@@ -177,7 +177,7 @@ body {
   height:90px;
 }
 
-#submitbtn input {
+.submitbtn {
   background-color: gray;
   color:white;
   cursor: pointer;
