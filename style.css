@@ -118,6 +118,7 @@ nav{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    border-bottom: 10px solid #3e3f41
 }
 
 .banner-activities{
@@ -127,6 +128,7 @@ nav{
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  border-bottom: 10px solid #3e3f41
 
 }
 .banner-register{
@@ -136,6 +138,7 @@ nav{
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  border-bottom: 10px solid #3e3f41
 
 }
 
@@ -183,3 +186,4 @@ body {
   padding-bottom: 2px;
   width: 75px;
 }
+
